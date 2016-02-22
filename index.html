@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
     <title>VitalSynapse</title>
 
@@ -38,17 +38,21 @@
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#page-top">
-                    <img class="img-responsive" src="img/vitalsynapse_logo.png" alt="VitalSynapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/vitalsynapse_logo.png" alt="VitalSynapse">
                 </a>
             </div>
+          
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <!-- <li class="hidden">
+                    <li class="hidden">
                         <a href="#page-top"></a>
-                    </li> -->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -159,6 +163,7 @@
             </div>
             <p></p>
         </div>
+    
         <div class="form">
         <form class="form-inline">
             <label for="pwd">Full Name:</label>

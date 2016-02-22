@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     width: 100%;
     height: 100%;
@@ -101,10 +95,10 @@ a:focus {
 
 .navbar-custom .navbar-brand > img
 {
-     max-height: 100%;
+     max-height: auto;
      height: 100%;
-    width: auto;
-    margin: 0 auto;
+     width: auto;
+     margin: 0 auto;
 
 
     /* probably not needed anymore, but doesn't hurt */
@@ -114,7 +108,6 @@ a:focus {
 }
 
 .navbar-custom a {
-    /*color: #fff;*/
     color: #000;
 }
 
@@ -126,7 +119,6 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    /*color: rgba(255,255,255,.8);*/
     color: rgba(217,30,24,.8);
     background-color: transparent;
 }
@@ -162,8 +154,7 @@ a:focus {
 
     .navbar-custom.top-nav-collapse {
         padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        /*background: #000;*/
+        border-bottom: 1px solid rgba(255,255,255,.3);        
         background: #fff;
     }
 }
@@ -175,6 +166,11 @@ a:focus {
     100% { 
       background-position: 0 60%, 100% 50%;
     }
+}
+
+.navbar-collapse
+{
+    background-color: white;
 }
 
 .intro {
@@ -430,6 +426,7 @@ footer a:hover{
 }
 
 ::selection {
+    color: white;  /*change to white*/
     text-shadow: none;
     background: #fcfcfc;
     background: rgba(255,255,255,.2);
