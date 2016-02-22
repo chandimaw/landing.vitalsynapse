@@ -26,6 +26,7 @@ h6 {
 
 h1
 {
+    font-family: 'Lato', sans-serif;
     color: #000;
 }
 
@@ -314,14 +315,14 @@ a:focus {
     margin-left: 10px;
 }
 
-/*@keyframes move {
+@keyframes move {
     0% { 
         background-position: 0 60%, 0 50%;
     }
     100% { 
       background-position: 0 60%, 100% 50%;
     }
-}*/
+}
 
 /*.download-section {*/
     /*width: 100%;*/
