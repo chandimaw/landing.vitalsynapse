@@ -27,7 +27,7 @@
 
     <style>
     div#load_screen{
-    background: #000;
+    background: #fff;
     opacity: 1;
     position: fixed;
     z-index:10;
@@ -37,7 +37,7 @@
     }
 
     div#load_screen > div#loading{
-    color:#FFF;
+    color:#d91e18;
     width:120px;
     height:24px;
     margin: 300px auto;
@@ -45,9 +45,10 @@
     </style>
 
     <script>
-    window.addEventListener("load", function(){
-    var load_screen = document.getElementById("load_screen");
-    document.body.removeChild(load_screen);
+    window.addEventListener("load", function()
+    {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);
     });
     </script>
 </head>
