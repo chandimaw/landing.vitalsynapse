@@ -1,14 +1,5 @@
-/*!
- * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Global Styles */
-
-
 header.carousel {
-    height: 50%;
+    height: 100%;
 }
 
 header.carousel .item,
@@ -23,7 +14,6 @@ header.carousel .fill {
     background-position: center;
     background-size: cover;
 }
-
 
 /* Responsive Styles */
 
