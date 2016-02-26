@@ -302,15 +302,6 @@ a:focus {
     padding-top: 100px;
 }
 
-.form{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.form label{
-    padding-left: 10px;
-}
-
 
 @keyframes move {
     0% { 
