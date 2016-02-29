@@ -170,7 +170,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color:#000; 
-    background: url(../img/bg-net2.png),radial-gradient(250px 550px at center, #fff 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+    background: url(../img/bg-net2.png) no-repeat bottom scroll,radial-gradient(250px 550px at center, #fff 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+    /*background-image:  no-repeat bottom center scroll;*/
     background-color: rgba(217,30,24,0.6);
 
     -webkit-background-size: cover;
@@ -178,7 +179,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 
-    background-size:125%, 50% 100%;
+    background-size:auto,50% 100%;
     animation: move 5s linear infinite;
 
     /* Extra Styles */
