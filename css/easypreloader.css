@@ -1,0 +1,608 @@
+/*!
+ * jQuery easypreloader plugin css main file
+ * Original author: @responsivewemmobile
+ * Version 1.0 2015-01-19
+ * Further changes, comments: @responsivewemmobile.com
+ */
+
+/* BLACK BACKGROUND */
+#easypreloader-black-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-black-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #000 url(../img/easypreloader-black-09.gif) center center no-repeat;
+	opacity: .9;
+}
+
+/* WHITE BACKGROUND */
+#easypreloader-white-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-white-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #fff url(../img/easypreloader-white-09.gif) center center no-repeat;
+	opacity: .9;
+}
+
+/* BLUE BACKGROUND */
+#easypreloader-blue-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-blue-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B3D5 url(../img/easypreloader-blue-09.gif) center center no-repeat;
+	opacity: .9;
+}
+
+/* GREEN BACKGROUND */
+#easypreloader-green-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-green-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #19B9A7 url(../img/easypreloader-green-09.gif) center center no-repeat;
+	opacity: .9;
+}
+
+
+/* RED BACKGROUND */
+#easypreloader-red-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-red-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FE6864 url(../img/easypreloader-red-09.gif) center center no-repeat;
+	opacity: .9;
+}
+
+
+/* YELLOW BACKGROUND */
+#easypreloader-yellow-01 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-01.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-02 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-02.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-03 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-03.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-04 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-04.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-05 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-05.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-06 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-06.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-07 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-07.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-08 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-08.gif) center center no-repeat;
+	opacity: .9;
+}
+
+#easypreloader-yellow-09 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FEB972 url(../img/easypreloader-yellow-09.gif) center center no-repeat;
+	opacity: .9;
+}
