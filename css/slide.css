@@ -1,7 +1,7 @@
 header.carousel {
-    height: 100%;
-}
-
+    height: 70%;
+    background: linear-gradient(to left, #FBD3E9 , #d91e18);
+    } 
 header.carousel .item,
 header.carousel .item.active,
 header.carousel .carousel-inner {
@@ -30,6 +30,6 @@ header.carousel .fill {
     }
 
     header.carousel .carousel {
-        height: 70%;
+        height: 50%;
     }
 }

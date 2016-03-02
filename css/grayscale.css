@@ -38,12 +38,14 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    
 }
 
 h1
 {
     font-family: 'Lato', sans-serif;
     color: #000;
+    text-shadow: 0 0 30px white;
 }
 
 h2
@@ -186,7 +188,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color:#000; 
-    background: url(../img/bg-net2.png) scroll,radial-gradient(250px 550px at center, #fff 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+    background: url(../img/bg-net2.png) scroll,radial-gradient(350px 750px at center, #fff 0%, rgba(0,0,0,0) 70%, rgba(0,0,0,0));
     /*background-image:  no-repeat bottom center scroll;*/
     background-color: rgba(217,30,24,0.6);
 
@@ -196,7 +198,7 @@ a:focus {
     -o-background-size: cover;
 
     background-size:100%,50% 100%;
-    animation: move 5s linear infinite;
+    animation: move 2s linear infinite;
 
     /* Extra Styles */
     /*height: 50px;*/
@@ -226,7 +228,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .intro .intro-body .intro-text {
