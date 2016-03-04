@@ -106,7 +106,7 @@
 
     <!-- Header Carousel -->
  
-    <header id="myCarousel" class="carousel slide text center">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -116,7 +116,7 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="fill" style="background-image:url('img/slide1.png');"></div>
                 <div class="carousel-caption">
@@ -150,7 +150,18 @@
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="icon-next"></span>
         </a>
-    </header>
+    </div>
+
+    <script>  
+$(document).ready(function() {  
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   });  
+});  
+</script>  
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
@@ -196,6 +207,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
+    <script src="jquery.mobile.custom.min.js"></script>  
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
