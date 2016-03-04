@@ -29,29 +29,38 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
- $(document).ready(function(){
-    // Activate Carousel
-    $("#myCarousel").carousel();
+//  $(document).ready(function(){
+//     // Activate Carousel
+//     $("#myCarousel").carousel();
     
-    // Enable Carousel Indicators
-    $(".item1").click(function(){
-        $("#myCarousel").carousel(0);
-    });
-    $(".item2").click(function(){
-        $("#myCarousel").carousel(1);
-    });
-    $(".item3").click(function(){
-        $("#myCarousel").carousel(2);
-    });
-    $(".item4").click(function(){
-        $("#myCarousel").carousel(3);
-    });
+//     // Enable Carousel Indicators
+//     $(".item1").click(function(){
+//         $("#myCarousel").carousel(0);
+//     });
+//     $(".item2").click(function(){
+//         $("#myCarousel").carousel(1);
+//     });
+//     $(".item3").click(function(){
+//         $("#myCarousel").carousel(2);
+//     });
+//     $(".item4").click(function(){
+//         $("#myCarousel").carousel(3);
+//     });
     
-    // Enable Carousel Controls
-    $(".left").click(function(){
-        $("#myCarousel").carousel("prev");
-    });
-    $(".right").click(function(){
-        $("#myCarousel").carousel("next");
-    });
-});
+//     // Enable Carousel Controls
+//     $(".left").click(function(){
+//         $("#myCarousel").carousel("prev");
+//     });
+//     $(".right").click(function(){
+//         $("#myCarousel").carousel("next");
+//     });
+// });
+
+$(document).ready(function() {  
+   $("#myCarousel").swiperight(function() {  
+      $("#myCarousel").carousel('prev');  
+    });  
+   $("#myCarousel").swipeleft(function() {  
+      $("#myCarousel").carousel('next');  
+   });  
+});  
