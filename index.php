@@ -160,7 +160,6 @@
             <div class="form">
                 <form class="form-inline" action="//vitalsynapse.us12.list-manage.com/subscribe/post?u=d55cf79e4a584d858d5d38d72&amp;id=01556bc707" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <input type="email" value="" name="EMAIL" class="form-control" size="50" id="email" maxlength="60"placeholder="Email Address" required>
-                        <br>
                         <button type="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-lg">Subscribe</button>
                 </form>
             </div>

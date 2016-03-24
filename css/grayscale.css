@@ -337,6 +337,7 @@ a:focus {
 }
 
 .btn {
+    padding-top: 10px;
     border-radius: -1;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
